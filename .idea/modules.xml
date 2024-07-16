@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/Code_Practice.iml" filepath="$PROJECT_DIR$/.idea/Code_Practice.iml" />
       <module fileurl="file://$PROJECT_DIR$/JAVA/JAVA.iml" filepath="$PROJECT_DIR$/JAVA/JAVA.iml" />
       <module fileurl="file://$PROJECT_DIR$/JAVA_8/JAVA_8.iml" filepath="$PROJECT_DIR$/JAVA_8/JAVA_8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot/SpringBoot.iml" filepath="$PROJECT_DIR$/SpringBoot/SpringBoot.iml" />
     </modules>
   </component>
 </project>
