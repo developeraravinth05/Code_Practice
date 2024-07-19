@@ -13,6 +13,10 @@ public class SwicthCase {
             case "Mango" -> System.out.println("King of fruit");
             case "Apple" -> System.out.println("Keeps doctor away");
             case "Orange" -> System.out.println("i am the citrix acid");
-            default -> System.out.println("Enter the correct fruit");
+            default -> {
+                System.out.println("Enter the correct fruit");
+
+
+            }
         }
 }}
