@@ -1,8 +1,6 @@
-package Arrays;
+package ArraysTopic;
 
-import java.lang.reflect.AnnotatedArrayType;
 import java.util.Arrays;
-import java.util.Scanner;
 
 public class transpose {
     public static void main(String[] args) {

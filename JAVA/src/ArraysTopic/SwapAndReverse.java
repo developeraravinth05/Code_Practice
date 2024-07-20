@@ -1,6 +1,4 @@
-package Arrays;
-
-import java.util.Arrays;
+package ArraysTopic;
 
 import java.util.Arrays;
 
