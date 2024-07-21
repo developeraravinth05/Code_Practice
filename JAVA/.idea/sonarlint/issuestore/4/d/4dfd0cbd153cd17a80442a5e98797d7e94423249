@@ -1,0 +1,30 @@
+
+d
+java:S1192C"GDefine a constant instead of duplicating this literal "banana" 4 times.(Ãú«Š8®¿ûõŒ2
+c
+java:S1192C"FDefine a constant instead of duplicating this literal "apple" 5 times.(Ãú«Š8¯¿ûõŒ2
+d
+java:S1192C"GDefine a constant instead of duplicating this literal "grapes" 5 times.(Ãú«Š8¯¿ûõŒ2
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¥şÊø8°¿ûõŒ2
+L	java:S106"+Replace this use of System.out by a logger.(ù£·êıÿÿÿÿ8À¿ûõŒ2
+L	java:S106"+Replace this use of System.out by a logger.(ÛÎ†úıÿÿÿÿ8À¿ûõŒ2
+L	java:S106"+Replace this use of System.out by a logger.(ëÊĞüÿÿÿÿÿ8Á¿ûõŒ2
+L	java:S106"+Replace this use of System.out by a logger.(±ãôüøÿÿÿÿ8Á¿ûõŒ2
+L	java:S106 "+Replace this use of System.out by a logger.(ëÊĞüÿÿÿÿÿ8Â¿ûõŒ2
+L	java:S106%"+Replace this use of System.out by a logger.(Ü¿òçûÿÿÿÿ8Ã¿ûõŒ2
+G	java:S106-"+Replace this use of System.out by a logger.(öıõÁ8Ã¿ûõŒ2
+L	java:S1063"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8Ä¿ûõŒ2
+G	java:S1067"+Replace this use of System.out by a logger.(Â¶’“8Å¿ûõŒ2
+G
+java:S1197;"*Move the array designators [] to the type.(ş¿½Ì8Æ¿ûõŒ2
+G	java:S106<"+Replace this use of System.out by a logger.(×Æáî8Æ¿ûõŒ2
+G	java:S106@"+Replace this use of System.out by a logger.(öıõÁ8Ç¿ûõŒ2
+G	java:S106E"+Replace this use of System.out by a logger.(·éùŞ8Ç¿ûõŒ2
+G	java:S106S"+Replace this use of System.out by a logger.(•™î8È¿ûõŒ2
+G	java:S106T"+Replace this use of System.out by a logger.(Õ•èƒ8È¿ûõŒ2
+L	java:S106U"+Replace this use of System.out by a logger.(Úöÿêşÿÿÿÿ8È¿ûõŒ2
+G	java:S106_"+Replace this use of System.out by a logger.(àéš8È¿ûõŒ2
+W	java:S125a"<This block of commented-out lines of code should be removed.(ıŒ y8É¿ûõŒ2
+F	java:S106g"+Replace this use of System.out by a logger.(‹¤88É¿ûõŒ2
+[
+java:S1128">Remove this unused import 'java.util.Comparator.reverseOrder'.(ÑúÜã8É¿ûõŒ2

@@ -1,0 +1,8 @@
+
+C
+java:S1604"(Make this anonymous inner class a lambda(Í‚ÅÌûÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(æÇ˜²
+Q	java:S125"<This block of commented-out lines of code should be removed.(Û÷Ù¨
+P	java:S125"<This block of commented-out lines of code should be removed.(ñ½©@
+E	java:S106"+Replace this use of System.out by a logger.(à¾ÏÓûÿÿÿÿ
+V	java:S125!"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ
