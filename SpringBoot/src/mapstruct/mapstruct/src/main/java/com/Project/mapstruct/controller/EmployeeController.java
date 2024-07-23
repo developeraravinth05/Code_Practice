@@ -12,6 +12,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import javax.validation.Valid;
+
 
 @RestController
 @RequestMapping("/employee")
@@ -20,7 +22,7 @@ public class EmployeeController {
     EmployeeService employeeService;
 
     @PostMapping("/create")
-    public ResponseEntity<EmployeeEntity> addEmployee( @RequestBody EmployeeDto empDto){
+    public ResponseEntity<EmployeeEntity> addEmployee(@Valid @RequestBody EmployeeDto empDto){
         return new ResponseEntity<>(employeeService.createEmployee(empDto), HttpStatus.CREATED);
 
     }
