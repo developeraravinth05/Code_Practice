@@ -47,3 +47,25 @@ L
 src/Multithreading/Demo.java,5\0\507d4bc5c08e6454394796074a9be8b30881df5b
 Q
 !src/Multithreading/MainClass.java,a\c\acaddad7fbf43c3c712302497ba74e623f0b0d81
+N
+src/Others/SingletonBreak.java,6\f\6ff20dd630f7928bfc166d99274b25d524c2055c
+O
+src/Others/ImmutableClass2.java,4\3\43ddf078ae82eede4594c96f6e953cba61d989b0
+I
+src/Others/Singleton.java,c\3\c39dbc059110ac8832db89b444ac989ea057cd18
+M
+src/Others/SingletonTest.java,5\f\5fdc86792843b36af0be57a3ce4a59c0eb47e869
+H
+src/Others/Employee.java,8\f\8fcfa180910b343c32de2926c96f68631843d9ae
+V
+&src/Others/SingletonDesignPattern.java,a\5\a5ca2a4ed9748e4fc7e7aec4370d6f1ecf796124
+F
+src/Others/GCDemo.java,0\b\0b429034f6f1b761b37d1f563bf087773eeeab65
+N
+src/Others/ImmutableClass.java,a\e\ae62811382ce73a8d9c4f65e91306f0d6a753ca1
+X
+(src/Others/EmployeeImplementSorting.java,c\3\c37f950665238dc3a36b95fc895fbbca51b8550d
+O
+src/Others/InterFunctional.java,0\4\04286608f167e128d6a6c13f843661513ca3815d
+X
+(src/Others/FunctionalImplementation.java,4\8\48fbbc85d38a6b2ba6e4842ca13a8459ef60d4b2

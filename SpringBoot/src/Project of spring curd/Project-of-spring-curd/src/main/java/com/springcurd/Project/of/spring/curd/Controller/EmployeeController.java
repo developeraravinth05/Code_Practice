@@ -1,6 +1,7 @@
 package com.springcurd.Project.of.spring.curd.Controller;
 
 
+import com.springcurd.Project.of.spring.curd.CustomException.BusinessException;
 import com.springcurd.Project.of.spring.curd.Entity.EmployeeEntity;
 import com.springcurd.Project.of.spring.curd.Repository.EmployeeRepository;
 import com.springcurd.Project.of.spring.curd.Service.EmployeeService;
@@ -12,6 +13,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.Optional;
 
 @RestController
 @RequestMapping("/employee")
@@ -32,10 +34,27 @@ public class EmployeeController {
         return new ResponseEntity<List<EmployeeEntity>>(getAll, HttpStatus.OK);
     }
 
+//    @GetMapping("/getEmployee/{empId}")
+//    public ResponseEntity<?> getEmployeeById(@PathVariable("empId") int empId) {
+//        Optional<EmployeeEntity> getByID = employeeService.getEmployeeById(empId);
+//        if (getByID.isPresent()) {
+//            return new ResponseEntity<>(getByID.get(), HttpStatus.OK);
+//        } else {
+//            return new ResponseEntity<>("ID NOT FOUND", HttpStatus.NOT_FOUND);
+//        }
+//    }
+
+    //using or else
+
     @GetMapping("/getEmployee/{empId}")
-    public ResponseEntity<EmployeeEntity> getEmployeeById(@PathVariable("empId") int empId){
-        EmployeeEntity getByID = employeeService.getEmployeeById(empId);
-        return new ResponseEntity<EmployeeEntity>(getByID, HttpStatus.OK);
+    public ResponseEntity<?> getEmployeeById(@PathVariable("empId") int empId) {
+        Optional<EmployeeEntity> getByID = employeeService.getEmployeeById(empId);
+
+        return getByID
+                .map(employeeEntity -> Optional.ofNullable(employeeEntity.getName())
+                        .map(name -> new ResponseEntity<>(employeeEntity, HttpStatus.ACCEPTED))
+                        .orElseThrow(BusinessException::new))
+                .orElseThrow(()->new RuntimeException("NAME IS EMPTY"));
     }
 
 

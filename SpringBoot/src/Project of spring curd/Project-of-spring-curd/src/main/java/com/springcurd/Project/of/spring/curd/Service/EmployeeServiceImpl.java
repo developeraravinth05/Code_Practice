@@ -7,6 +7,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Optional;
+
 @Service
 public class EmployeeServiceImpl implements EmployeeService {
 
@@ -35,8 +37,9 @@ public class EmployeeServiceImpl implements EmployeeService {
     }
 
     @Override
-    public EmployeeEntity getEmployeeById(int empId) {
-        return employeeRepository.findById(empId).get();
+    public Optional<EmployeeEntity> getEmployeeById(int empId) {
+       return employeeRepository.findById(empId);
+
     }
 
     @Override

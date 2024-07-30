@@ -18,8 +18,8 @@ public class GlobalException extends ResponseEntityExceptionHandler {
 
     @ExceptionHandler
     public ResponseEntity<Object> businessException(BusinessException businessException){
-
-    return new ResponseEntity<Object>("Input value is not correct ",HttpStatus.NOT_FOUND);
+        ErrorResponse errorResponse = new ErrorResponse("ID IS EMPTY", HttpStatus.BAD_REQUEST.value());
+    return new ResponseEntity<Object>(errorResponse,HttpStatus.NOT_FOUND);
     }
 
     @Override
