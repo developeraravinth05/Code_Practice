@@ -18,7 +18,7 @@ public class CitizenEntity {
 @GeneratedValue(strategy = GenerationType.SEQUENCE)
 private int id;
 
-@Column(columnDefinition = "CitizenName")
+@Column
 private String name;
 
 @Column
