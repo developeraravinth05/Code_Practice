@@ -3,10 +3,8 @@ package com.microservice.citizen.service.Controller;
 
 import com.microservice.citizen.service.Entity.CitizenEntity;
 import com.microservice.citizen.service.Service.CitizenService;
-import jakarta.persistence.criteria.CriteriaBuilder;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
-import org.springframework.http.HttpStatusCode;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
